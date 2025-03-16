@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import Feather from "@expo/vector-icons/Feather";
 import Categories from "../components/Categories";
+import SortCategories from "@/components/SortCategories";
 
 const home = () => {
   return (
@@ -17,7 +18,7 @@ const home = () => {
         showsVerticalScrollIndicator={false}
         className="space-y-6 mt-10"
       >
-        <View className="mx-5 flex-row justify-between items-center mb-10">
+        <View className="mx-5 flex-row justify-between items-center mb-6">
           <Text className="font-bold neutral-700 text-[2rem]">
             Let's Discover
           </Text>

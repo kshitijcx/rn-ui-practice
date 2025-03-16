@@ -25,7 +25,10 @@ export default function Index() {
             Experience the world's best adventure around the world with us
           </Text>
         </View>
-        <TouchableOpacity className="bg-orange-500 mx-auto p-3 px-12 rounded-full" onPress={()=>navigation.navigate("home")}>
+        <TouchableOpacity
+          className="bg-orange-500 mx-auto p-3 px-12 rounded-full"
+          onPress={() => navigation.navigate("home")}
+        >
           <Text className="text-white font-bold">Let's Go</Text>
         </TouchableOpacity>
       </View>
