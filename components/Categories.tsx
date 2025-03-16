@@ -14,20 +14,18 @@ export default function Categories() {
       </View>
       <ScrollView
         horizontal
-        contentContainerStyle={{ paddingHorizontal: 15,gap:20 }}
+        contentContainerStyle={{ paddingHorizontal: 15, gap: 20 }}
         showsHorizontalScrollIndicator={false}
       >
-        {categoriesData.map((cat, index) => {
-          return (
-            <TouchableOpacity
-              key={index}
-              className="flex items-center space-y-2"
-            >
-              <Image source={cat.image} className="rounded-3xl h-24 w-24" />
-              <Text className="text-neutral-700 font-medium">{cat.title}</Text>
-            </TouchableOpacity>
-          );
-        })}
+        {categoriesData.map((cat, index) => (
+          <TouchableOpacity key={index} className="flex items-center space-y-2">
+            <Image
+              source={cat.image}
+              className="rounded-3xl h-[5.75rem] w-[5.75rem]"
+            />
+            <Text className="text-neutral-700 font-medium">{cat.title}</Text>
+          </TouchableOpacity>
+        ))}
       </ScrollView>
     </View>
   );

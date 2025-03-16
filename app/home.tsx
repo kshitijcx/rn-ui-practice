@@ -10,6 +10,7 @@ import {
 import Feather from "@expo/vector-icons/Feather";
 import Categories from "../components/Categories";
 import SortCategories from "@/components/SortCategories";
+import Destinations from "@/components/Destinations";
 
 const home = () => {
   return (
@@ -41,6 +42,12 @@ const home = () => {
         </View>
         <View className="mb-4">
           <Categories />
+        </View>
+        <View className="mb-4">
+          <SortCategories />
+        </View>
+        <View>
+          <Destinations />
         </View>
       </ScrollView>
     </SafeAreaView>

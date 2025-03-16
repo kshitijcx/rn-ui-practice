@@ -13,7 +13,7 @@ export default function Index() {
       <View className="p-5 pb-10 gap-8">
         <LinearGradient
           colors={["transparent", "rgba(3,105,161,0.8)"]}
-          className="h-80 w-screen absolute bottom-0"
+          className="h-[500px] w-screen absolute bottom-0"
           start={{ x: 0.5, y: 0 }}
           end={{ x: 0.5, y: 1 }}
         />
