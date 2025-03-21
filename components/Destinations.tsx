@@ -19,7 +19,7 @@ export default Destinations;
 const DestinationCard = ({ dest, navigation }) => {
   return (
     <TouchableOpacity
-      onPress={() => navigation.navigate("/destination", { ...dest })}
+      onPress={() => navigation.navigate("destination", { ...dest })}
       className="h-60 w-[12rem] relative flex justify-end p-4 py-6 space-y-2 mb-5"
     >
       <Image
