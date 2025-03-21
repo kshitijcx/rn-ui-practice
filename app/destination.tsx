@@ -4,7 +4,7 @@ const destination = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text>Hello</Text>
+        <Text>Hello hello</Text>
       </View>
     </SafeAreaView>
   );
